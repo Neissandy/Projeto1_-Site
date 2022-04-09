@@ -120,7 +120,7 @@ li{
     padding: 10%;
     background-color: hsl(270, 9%, 17%);
 }
-footer{
+.footer-mobile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,25 +200,42 @@ footer{
         text-align:start;
         align-items: flex-start;
         padding: 25px;
-    
     }
-    
     .img-intro-desktop{
         position: absolute;
         width: 20rem;
         right: 10%;
         top: 30%
     }
-    
     .text-intro-desktop{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         text-align: start;
+        padding-bottom: 15px;
     }
     .div-text-intro-desktop{
         width: 55%;
     }
+    .card-end-desktop{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: start;
+        background-color: hsl(270, 9%, 17%);
+        padding: 0;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .footer-desktop{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .icons-social-desktop{
+        display: flex;
+        flex-direction: row;
 
+    }
 
 }
